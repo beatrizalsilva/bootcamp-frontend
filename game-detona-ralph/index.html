@@ -4,10 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Game Detona Ralph</title>
+    <link rel="shortcut icon" href="src/images/favicon.jpg" type="image/x-icon">
 
     <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/styles.css">
 </head>
 <body>
+    <main>
+        <div class="menu">
+            <div class="time">
+                <h2>Time Left</h2>
+                <p id="time">0</p>
+            </div>
+
+            <div class="score">
+                <h2>Your Score</h2>
+                <p id="score">0</p>
+            </div>
+
+            <div class="lifes">
+                <img src="src/images/player.png" alt="Icone do herói Felix para representar o jogador">
+                <h2>x3</h2>
+            </div>
+        </div>
+
+        <div class="painel">
+            <div class="painel-row">
+                <div class="square" id="1"></div>
+                <div class="square" id="2"></div>
+                <div class="square" id="3"></div>
+            </div>
+
+            <div class="painel-row">
+                <div class="square enemy" id="4"></div>
+                <div class="square" id="5"></div>
+                <div class="square" id="6"></div>
+            </div>
+
+            <div class="painel-row">
+                <div class="square" id="7"></div>
+                <div class="square" id="8"></div>
+                <div class="square" id="9"></div>
+            </div>
+        </div>
+    </main>
+
    <script src="src/engine.js"></script> 
 </body>
 </html>
