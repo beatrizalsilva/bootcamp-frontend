@@ -1,3 +1,4 @@
+// A estrutura state organiza as variáveis e elementos do jogo
 const state = {
     view: {
         squares: document.querySelectorAll(".square"),
@@ -40,6 +41,7 @@ function sortearInimigo() {
     state.values.posicao = sortearSquare.id;
 }
 
+// evento de clique para cada quadrado, que verifica se o jogador acertou a posição do "inimigo"
 function listenerBlocos() {
     state.view.squares.forEach((square) => {
         square.addEventListener("mousedown", () => {
