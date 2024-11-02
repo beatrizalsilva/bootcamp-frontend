@@ -1,4 +1,4 @@
-# Nível do Heroi
+# Nível do Herói
 O **Nível do Herói** é um classificador que define o nível do personagem com base em sua pontuação de XP. Este projeto foi desenvolvido como um desafio de código para testar conhecimentos em variáveis, operadores e estruturas de decisão.
 
 ## 🎥 Demonstração
