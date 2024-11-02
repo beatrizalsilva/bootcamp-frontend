@@ -40,7 +40,7 @@ Paleta de cores
     color: #3B2C4A;
 }
 
-.jogo {
+.areaDoJogo {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -48,6 +48,10 @@ Paleta de cores
     width: 26.87rem;
     height: 26.87rem;
     gap: 0.6rem;
+
+    /* ao virar as cartas ter um efeito 3D */
+    transform-style: preserve-3d;
+    perspective: 31.25rem;
 }
 
 .cartas {
@@ -58,17 +62,34 @@ Paleta de cores
     position: relative;
     width: 6.25rem;
     height: 6.25rem;
-    background-color: #E5D4ED;
+    font-size: 2rem;
+
+    background-color: #B19CD9;
     border: 0.13rem solid transparent;
     border-radius: 0.5rem;
-    transition: border-color 0.3s, transform 0.3s;
+    transform: rotateY(180deg);
+    transition: 0.30s;
 }
 
-.cartas:hover {
-    border-color: #FFB7C5; 
-    transform: scale(1.05); /* Aumenta levemente ao passar o mouse */
+.cartas::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-color: #B19CD9;
+    border-radius: 0.5rem;
+    transition: 0.30s;
+    transform: rotateY(0deg);
+    backface-visibility: hidden;
 }
 
+.cartas.boxOpen {
+    transform: rotateY(0deg); /* Exibe o conteúdo */
+}
+
+.cartas.boxOpen::after, 
+.cartas.verificarPar::after {
+    transform: rotateY(180deg); /* Gira a face traseira, tornando-a invisível */
+}
 .reset {
     padding: 0.62rem 0.93rem;
     background-color: #B19CD9;

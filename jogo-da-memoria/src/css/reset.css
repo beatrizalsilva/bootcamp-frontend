@@ -14,6 +14,6 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    /* background-color: #8A2BBE; */
     background: linear-gradient(135deg, #8A2BBE, #B19CD9, #E5D4ED);
+    user-select: none; /* não seleciona os emojis das cartas */
 }
