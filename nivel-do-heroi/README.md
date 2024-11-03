@@ -22,4 +22,4 @@ git clone https://github.com/seu-usuario/nivel-do-heroi.git
 Durante o desenvolvimento, percebi a importância de escolher a estrutura de decisão correta. Optei pelo `switch` para facilitar a leitura, pois usar `if-else` em vários casos poderia tornar o código extenso. Utilizei `getElementById` para acessar elementos de forma dinâmica e simplifiquei a exibição da mensagem com interpolação no alert.
 
 ## 🤝 Contribuição
-Contribuições são bem-vindas! Se você deseja melhorar este jogo, adicionar novos recursos ou corrigir problemas, sinta-se à vontade para abrir um _pull request_.
+Contribuições são bem-vindas! Se você deseja melhorar este projeto, adicionar novos recursos ou corrigir problemas, sinta-se à vontade para abrir um _pull request_.
