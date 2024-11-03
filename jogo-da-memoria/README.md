@@ -1,5 +1,5 @@
 # Memory Bangtan
-Memory Bangtan é um jogo de memória temático inspirado no grupo BTS, como o Army apaixonada não deixaria essa oportunidade passar. O objetivo é encontrar os pares de cartas com emojis representando cada membro do grupo. Ao completar o jogo, você desbloqueia uma mensagem especial que celebra sua vitória!
+Memory Bangtan é um jogo de memória temático inspirado no grupo BTS, como uma Army apaixonada não deixaria essa oportunidade passar. O objetivo é encontrar os pares de cartas com emojis representando cada membro do grupo. Ao completar o jogo, você desbloqueia uma mensagem especial que celebra sua vitória!
 
 ## 🎥 Demonstração
 ![Demonstração](src/images/overview.gif)
